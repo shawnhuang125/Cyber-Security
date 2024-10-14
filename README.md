@@ -39,6 +39,8 @@
 |SSH(Secure Shell)|遠程造訪服務|`TCP`|`22`|
 |微軟網路芳鄰（NetBIOS over TCP/IP）|本地端訪問其他電腦,打印機,文件夾的默認通訊port|`TCP`,`UDP`|`137`,`138`,`139`|
 
+- 三向交握 
+
 - 惡意軟體(Malware)
 
 - OWASP Top 10 最常見的網路攻擊手法及其威脅
