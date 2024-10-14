@@ -1,6 +1,5 @@
 # 網路安全Cyber-Security
 ## 管理概論
-### 目錄
 - ISMS(Information Security Management System)
 - Law
   - 資通安全法
