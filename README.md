@@ -14,6 +14,17 @@
 - 資安通報流程
 ## 技術概論
 - 計算機網路-OSI
+
+|模型層級|功能|
+|---------|-----|
+|application layer|通訊協定,DNS解析|
+|presentation layer|加密解密,轉換格式|
+|session layer|通訊連線|
+|transport layer|切割數據段,附上序號,封裝數據包,|
+|network layer|路由協定,VLAN協定,IP協定,|
+|data link layer|MAC Address, 橋接,|
+|physical layer|電纜,|
+
 - 惡意軟體(Malware)
 - OWASP Top 10
 - 網路安全防護設備介紹
