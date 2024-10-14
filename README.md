@@ -37,7 +37,7 @@
 |IMAP(Internal Mail Accessible Portocol)|比較複雜的EMAIL的傳輸協定|`TCP`|`143`|
 |FTP(File Transport Portocol)|檔案的傳輸|`UDP/TCP`|`20/21`|
 |SSH(Secure Shell)|遠程造訪服務|`TCP`|`22`|
-|微軟網路芳鄰（NetBIOS over TCP/IP）|`TCP`,`UDP`|`137`,`138`,`139`|
+|微軟網路芳鄰（NetBIOS over TCP/IP）|本地端訪問其他電腦,打印機,文件夾的默認通訊port|`TCP`,`UDP`|`137`,`138`,`139`|
 
 - 惡意軟體(Malware)
 
