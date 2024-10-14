@@ -26,6 +26,7 @@
 |data link layer|交換器VLAN協定,STP生成樹協定,AP,橋接器|
 |physical layer|MAC Address,網線,集線器hub|
 
+
 - TCP/IP協議默認端口
 
 |通訊協定|功能| Transport Layer|端口Portocol|
@@ -36,6 +37,7 @@
 |IMAP(Internal Mail Accessible Portocol)|比較複雜的EMAIL的傳輸協定|`TCP`|`143`|
 |FTP(File Transport Portocol)|檔案的傳輸|`UDP/TCP`|`20/21`|
 |SSH(Secure Shell)|遠程造訪服務|`TCP`|`22`|
+|微軟網路芳鄰（NetBIOS over TCP/IP）|`TCP`,`UDP`|`137`,`138`,`139`|
 
 - 惡意軟體(Malware)
 
