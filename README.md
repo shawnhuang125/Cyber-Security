@@ -26,7 +26,7 @@
 |physical layer|MAC Address,網線,集線器hub|
 
 - TCP/IP協議默認端口
-- 
+
 |通訊協定|功能| Transport Layer|端口Portocol|
 |---------|---------|---------|---------|
 |HTTP|網頁造訪,數據不會加密|`TCP`|`8080`|
