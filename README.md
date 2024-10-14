@@ -30,12 +30,12 @@
 
 |通訊協定|功能| Transport Layer|端口Portocol|
 |---------|---------|---------|---------|
-|HTTP|網頁造訪,數據不會加密|`TCP`|`80`|
-|HTTPS|網頁造訪,數據會被加密|`TCP`|`443`|
-|SMTP|EMAIL的傳輸協定|`TCP`|`25`|
-|IMAP|比較複雜的EMAIL的傳輸協定|`TCP`|`143`|
-|FTP|檔案的傳輸|`UDP/TCP`|`20/21`|
-|SSH|遠程造訪服務|`TCP`|`22`|
+|HTTP(Hyper-Text Transport Portocol)|網頁造訪,數據不會加密|`TCP`|`80`|
+|HTTPS(Hyper-Text Transport Portocol Secure)|網頁造訪,數據會被加密|`TCP`|`443`|
+|SMTP(Simple Mail Transport Portocol)|EMAIL的傳輸協定|`TCP`|`25`|
+|IMAP(Internal Mail Accessible Portocol)|比較複雜的EMAIL的傳輸協定|`TCP`|`143`|
+|FTP(File Transport Portocol)|檔案的傳輸|`UDP/TCP`|`20/21`|
+|SSH(Secure Shell)|遠程造訪服務|`TCP`|`22`|
 
 - 惡意軟體(Malware)
 - OWASP Top 10
