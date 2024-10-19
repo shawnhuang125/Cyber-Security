@@ -57,16 +57,16 @@
   - 三向交握 
   - ![image](https://github.com/user-attachments/assets/0fa8cb0e-201e-482d-83d0-cc751eb21621)
 
-  - 惡意軟體(Malware)
+- 惡意軟體(Malware)
 
-  - OWASP Top 10 最常見的網路攻擊手法及其威脅
+- OWASP Top 10 最常見的網路攻擊手法及其威脅
 
-  - 網路安全防護設備介紹
+- 網路安全防護設備介紹
 
-  |  系統名稱  |IDS(Intrusion Detection System) | IPS(Intrusion Prevention System)   | WAF(Web Application Firewall)  | SIEM(Security Information & Events Management) | 
-  |-----------|----|---|---|----|
-  |用途|偵測用的系統|防禦用的系統|有偵測也有防禦|將來自各層的事件與事故全部整合並記錄下來|
-  |OSI層級|`Network Layer`|`Network Layer`|`Application Layer`|`整合多層數據`|
+|  系統名稱  |IDS(Intrusion Detection System) | IPS(Intrusion Prevention System)   | WAF(Web Application Firewall)  | SIEM(Security Information & Events Management) | 
+|-----------|----|---|---|----|
+|用途|偵測用的系統|防禦用的系統|有偵測也有防禦|將來自各層的事件與事故全部整合並記錄下來|
+|OSI層級|`Network Layer`|`Network Layer`|`Application Layer`|`整合多層數據`|
 
 
 - 作業系統安全
