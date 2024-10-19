@@ -12,6 +12,7 @@
 - 身分管理
 - 事件與事故管理(事件:未造成損失,事故:已造成損失)
   - 營運持續計畫SIEM(Security Information & Events Management)
+  
   |  系統名稱  |IDS(Intrusion Detection System) | IPS(Intrusion Prevention System)   | WAF(Web Application Firewall)  | SIEM(Security Information & Events Management) | 
   |-----------|----|---|---|----|
   |用途|偵測用的系統|防禦用的系統|有偵測也有防禦|將所有事件與事故全部記錄下來並呈獻給防護人員|
