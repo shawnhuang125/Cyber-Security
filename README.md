@@ -15,7 +15,7 @@
   
   |  系統名稱  |IDS(Intrusion Detection System) | IPS(Intrusion Prevention System)   | WAF(Web Application Firewall)  | SIEM(Security Information & Events Management) | 
   |-----------|----|---|---|----|
-  |用途|偵測用的系統|防禦用的系統|有偵測也有防禦|將所有事件與事故全部記錄下來並呈獻給防護人員|
+  |用途|偵測用的系統|防禦用的系統|有偵測也有防禦|將來自各層的事件與事故全部整合並記錄下來|
   |OSI層級|`Network Layer`|`Network Layer`|`Application Layer`|`整合多層數據`|
 
 
