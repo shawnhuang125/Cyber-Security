@@ -12,7 +12,7 @@
 - 身分管理
 - 事件與事故管理(事件:未造成損失,事故:已造成損失)
   - 營運持續計畫SIEM(Security Information & Events Management)
-  - 舉例:如果一家公司正遭受網路攻擊
+  - SANS Incident Response System(舉例說明:如果一家公司正遭受網路攻擊)
   
   | 階段| 說明|
   |----|---------|
