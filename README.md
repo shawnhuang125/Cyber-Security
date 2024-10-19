@@ -12,12 +12,17 @@
 - 身分管理
 - 事件與事故管理(事件:未造成損失,事故:已造成損失)
   - 營運持續計畫SIEM(Security Information & Events Management)
+  - 舉例:如果一家公司正遭受網路攻擊
   
-  |  系統名稱  |IDS(Intrusion Detection System) | IPS(Intrusion Prevention System)   | WAF(Web Application Firewall)  | SIEM(Security Information & Events Management) | 
-  |-----------|----|---|---|----|
-  |用途|偵測用的系統|防禦用的系統|有偵測也有防禦|將來自各層的事件與事故全部整合並記錄下來|
-  |OSI層級|`Network Layer`|`Network Layer`|`Application Layer`|`整合多層數據`|
-
+  | 階段| 說明|
+  |----|---------|
+  |Preparation|事先部屬的IDS(Intrusion Detection System),IPS(Intrusion Protection System)及SIEM(Security Information & Events Management)|
+  |Identification|從SIEM系統,IDS及IPS發現入侵痕跡屬於偵測階段|
+  |Containment|隔離伺服器與清除Malware遏制階段|
+  |Eradication|修復系統漏洞|
+  |Recovery|從Backup中還原系統資料屬於還原階段|
+  |Lesson Learned|事後與團隊的檢討與討論屬於事件學習階段|
+  
 
 
 - 備份管理
@@ -57,12 +62,10 @@
 
 - 網路安全防護設備介紹
 
-|防護設備名稱|功能|
-|---------|-----|
-|IDS||
-|IPS||
-|Web應用防火牆||
-|UTM||
+|  系統名稱  |IDS(Intrusion Detection System) | IPS(Intrusion Prevention System)   | WAF(Web Application Firewall)  | SIEM(Security Information & Events Management) | 
+|-----------|----|---|---|----|
+|用途|偵測用的系統|防禦用的系統|有偵測也有防禦|將來自各層的事件與事故全部整合並記錄下來|
+|OSI層級|`Network Layer`|`Network Layer`|`Application Layer`|`整合多層數據`|
 
 
 - 作業系統安全
