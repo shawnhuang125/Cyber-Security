@@ -141,10 +141,11 @@ OWASP是一個幫助開發者了解WEB的開發漏洞的非營利性開放社群
 ```
 日誌得紀錄是為了確保誰做了甚麼(可歸責性Accountability)及確保行為的不可抵賴性(不可否認性)。
 ```
+    
   - 日誌蒐集與分析之準則
-    - Data Normalization資料正規化:統一格式化,便於分析
-    - Data Cleaning資料清洗:刪除不必要的內容,便於分析
-    - clock Synchronization時間同步:確保每個日誌檔的準確性
+  - Data Normalization資料正規化:統一格式化,便於分析
+  - Data Cleaning資料清洗:刪除不必要的內容,便於分析
+  - clock Synchronization時間同步:確保每個日誌檔的準確性
   
   - 日誌存放路徑(日誌要壓縮留存,日誌集中儲存於Log Server)
 
