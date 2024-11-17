@@ -97,29 +97,32 @@
 
 - 惡意軟體(Malware)
 
-- OWASP Top 10-2021
+- OWASP Top Ten Risks -2017 | [OWASP](https://owasp.org/)
+```
+OWASP是一個幫助開發者了解WEB的開發漏洞的非營利性開放社群組織。
+```
 
-| 弱點(vulnerability) | 敘述(description) |
-|----------|---| 
-|權限控制失效 (Broken Access Control)|`攻擊者可直接利用授權瑕疵查看機密資料`|
-|加密機制失效 (Cryptographic Failures)|`攻擊者可輕易破解制薄的加密機制`|
-|注入式攻擊 (Injection)|`攻擊者前端輸入sql查詢語法直接查機密資訊`|
-|不安全設計 (Insecure Design)|`開發並未執行安全檢查`|
-|安全設定缺陷 (Security Misconfiguration)||
-|危險或過時的元件 (Vulnerable and Outdated Components)||
-|認證及驗證機制失效 (Identification and Authentication Failures)||
-|軟體及資料完整性失效 (Software and Data Integrity Failures)||
-|資安記錄及監控失效 (Security Logging and Monitoring Failures)||
-|伺服端請求偽造 (Server-Side Request Forgery)||
+| 弱點(vulnerability) |層級|攻擊手法|防範|
+|----------|---|---|---|
+|權限控制失效 (Broken Access Control)|`Application layer`|（Horizontal Privilege Escalation):查看其他用戶資訊,垂直權限提升（Vertical Privilege Escalation):嘗試訪問管理員權限|每次的訪問中每個使用者都需要至後端驗證權限水平權限提升|
+|加密機制失效 (Cryptographic Failures)|`Presentation layer`,`Application layer`|攻擊者劫持未經加密的數據傳輸(HTTP)或破解數據的弱密碼(MD5,SHA-1 Hashi)|使用https傳輸,使用AES-256,SHA-256加密|
+|注入式攻擊 (Injection)|`Application layer`|sql注入:再輸入欄位中插入sql查詢,command注入:插入系統指令操作伺服器|確實檢查前端輸入的正確性,使用參數化的SQL查詢結合API至後端執行查詢,設置WEB應用防火牆|
+|不安全設計 (Insecure Design)|`Application layer`|||
+|安全設定缺陷 (Security Misconfiguration)|`Application layer`|||
+|危險或過時的元件 (Vulnerable and Outdated Components)|`Application layer`|||
+|認證及驗證機制失效 (Identification and Authentication Failures)|`Application layer`|||
+|軟體及資料完整性失效 (Software and Data Integrity Failures)|`Application layer`|||
+|資安記錄及監控失效 (Security Logging and Monitoring Failures)|`Application layer`|||
+|伺服端請求偽造 (Server-Side Request Forgery)|`Application layer`|||
 
 - 網路安全防護設備介紹
 
 |系統名稱|用途|OSI層級|
 |-----------|----|---|
-|IDS(Intrusion Detection System)|用來偵測的防護裝置|`Network Layer`|
-|IPS(Intrusion Prevention System)  |用來防護的防護裝置|`Network Layer`|
-|WAF(Web Application Firewall) |用來偵測和防禦|`Application Layer`|
-|SIEM(Security Information & Events Management) |用來||
+|IDS(Intrusion Detection System)|一個用來偵測的防護裝置|`Network Layer`|
+|IPS(Intrusion Prevention System)  |一個用來防護的防護裝置|`Network Layer`|
+|WAF(Web Application Firewall) |一個用來偵測和防禦的防護裝置|`Application Layer`|
+|SIEM(Security Information & Events Management) |一個用來整合IDS和IPS的防護系統|`Application Layer`,`Network Layer`|
 |應用代理防火牆 |用來偵測和防禦|`Application Layer`|
 |狀態防火牆 |用來|`Network Layer`|
 ||||
