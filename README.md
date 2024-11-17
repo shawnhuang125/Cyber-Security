@@ -75,14 +75,16 @@
 
 | 弱點(vulnerability) | 敘述(description) |
 |----------|---| 
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-
+|權限控制失效 (Broken Access Control)|`攻擊者可直接利用授權瑕疵查看機密資料`|
+|加密機制失效 (Cryptographic Failures)|`攻擊者可輕易破解制薄的加密機制`|
+|注入式攻擊 (Injection)|`攻擊者前端輸入sql查詢語法直接查機密資訊`|
+|不安全設計 (Insecure Design)|`開發並未執行安全檢查`|
+|安全設定缺陷 (Security Misconfiguration)||
+|危險或過時的元件 (Vulnerable and Outdated Components)||
+|認證及驗證機制失效 (Identification and Authentication Failures)||
+|軟體及資料完整性失效 (Software and Data Integrity Failures)||
+|資安記錄及監控失效 (Security Logging and Monitoring Failures)||
+|伺服端請求偽造 (Server-Side Request Forgery)||
 
 - 網路安全防護設備介紹
 
