@@ -95,6 +95,11 @@
   - ![image](https://github.com/user-attachments/assets/0fa8cb0e-201e-482d-83d0-cc751eb21621)
 
 - 惡意軟體(Malware)
+    - 病毒類型
+      - 蠕蟲(不須附著於惡意程式):區域往段掃描,自行裂變
+      - 木馬(需附著於惡意程式上):
+    - 免殺技術:病毒通常會夾帶免殺技術來躲避防毒軟體的規則,所以防毒軟體要常常更新!
+     
 
 - OWASP Top Ten Risks -2017 | [OWASP](https://owasp.org/)
 ```
