@@ -60,8 +60,7 @@
   |第3級|一般公務機關之機密,敏感,核心業務之CIA|  1H|2H|36H|
   |第2級|非公務機關,非核心業務之CIA|  1H|8H|72H|
   |第1級|非公務機關,非核心業務之CIA| 1H|8H|72H|
-  - 舉例說明
-  - ![image](https://github.com/user-attachments/assets/9efb31a7-abf9-4d3c-8859-84846c164a9e)
+  
 
   
 
