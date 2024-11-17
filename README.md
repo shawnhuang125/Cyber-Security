@@ -1,6 +1,15 @@
 # 網路安全Cyber-Security
 ## 管理概論
 - ISMS(Information Security Management System)
+  -PDCA Cycle
+  
+  |執行階段|執行控制|
+  |--------|--------|
+  |Plan|確認範圍,領導承諾,|
+  |Do|風險控制,風險評鑑|
+  |Check|稽核,|
+  |Active|實施|
+  
 - Law
   - 資通安全法
   - GDPR(General Data Protection Regulation)
