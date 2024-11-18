@@ -59,8 +59,10 @@
 
 - 身份驗證技術
    - 字典猜測攻擊關鍵字：paawordlist
-   - 暴力攻
-   - FRR(Reject Rate):越高越安全；FAR(Accept Rate):越低越安全；CER( Crossover):FAR跟FRR的交會點，愈低愈安全。
+   - 驗證技術安全指標
+     - FRR(Reject Rate):越高越安全
+     - FAR(Accept Rate):越低越安全
+     - CER( Crossover):FAR跟FRR的交會點，愈低愈安全。
 - 備份管理
   - 備份方法
   
