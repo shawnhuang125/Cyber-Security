@@ -112,12 +112,10 @@
           完整備份 增量備份 增量備份
   ```
 - 事件與事故管理(事件:未造成損失,事故:已造成損失)
-  - 營運持續計畫SIEM(Security Information & Events Management)
   - SANS Incident Response System(舉例說明:如果一家公司正遭受網路攻擊)
-  
   | 階段| 說明|
   |----|---------|
-  |Preparation|事先部屬的IDS(Intrusion Detection System),IPS(Intrusion Protection System)及SIEM(Security Information & Events Management)|
+  |Preparation|事先部屬的IDS(Intrusion Detection System),IPS(Intrusion Protection System)或SIEM(Security Information & Events Management)|
   |Identification|從SIEM系統,IDS及IPS發現入侵痕跡屬於偵測階段|
   |Containment|隔離伺服器與清除Malware遏制階段|
   |Eradication|修復系統漏洞|
@@ -146,7 +144,16 @@
   |第3級|一般公務機關之機密,敏感,核心業務之CIA|  1H|2H|36H|
   |第2級|非公務機關,非核心業務之CIA|  1H|8H|72H|
   |第1級|非公務機關,非核心業務之CIA| 1H|8H|72H|
-  
+- 營運持續
+  - 災難復原計畫(BCP)
+    - MRT(最大認售復原時間)
+    - RTO(time復原時間)
+    - RPO(point復原點)
+  - 備援技術
+    - 熱備援
+    - 溫備援
+    - 冷備援
+  - 異地備援計劃之準則
 
   
 
