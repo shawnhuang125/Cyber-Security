@@ -146,7 +146,7 @@
     - 免殺技術:病毒通常會夾帶免殺技術來躲避防毒軟體的規則,所以防毒軟體要常常更新!
      
 
-- OWASP Top Ten Risks -2021 十大漏洞|[網站攻擊手法](https://github.com/shawnhuang125/Cyber-Security/blob/main/web_attack.md) | [OWASP](https://owasp.org/)
+- OWASP Top Ten Risks -2021 十大漏洞 | [網站攻擊手法](https://github.com/shawnhuang125/Cyber-Security/blob/main/web_attack.md) | [OWASP](https://owasp.org/)
 ```
 OWASP是一個幫助開發者了解WEB的開發漏洞的非營利性開放社群組織。
 ```
