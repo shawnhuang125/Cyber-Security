@@ -113,6 +113,7 @@
   ```
 - 事件與事故管理(事件:未造成損失,事故:已造成損失)
   - SANS Incident Response System(舉例說明:如果一家公司正遭受網路攻擊)
+  
   | 階段| 說明|
   |----|---------|
   |Preparation|事先部屬的IDS(Intrusion Detection System),IPS(Intrusion Protection System)或SIEM(Security Information & Events Management)|
