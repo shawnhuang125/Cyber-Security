@@ -44,9 +44,9 @@
   ```
   - 現代密碼
     - 對稱式加密
-      - DES,3DES,AES
+      - DES(會被暴力破解),3DES(會被暴力破解),AES(最安全,支持三種密鑰長度：128 位、192 位、256 位)
     - 非對稱式加密
-      - RSA,橢圓曲線
+      - RSA（Rivest-Shamir-Adleman）,ECC（Elliptic Curve Cryptography)橢圓曲線密碼學,EdDSA（Edwards-Curve Digital Signature Algorithm）曲線數位簽章演算法
     - 雜湊函數
       - 是用來製作數位信封的加密技術
       - 單向加密,只可以加密不可解密
