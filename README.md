@@ -101,6 +101,13 @@
 
 - 身份驗證技術
    - **SNMP**:網管相關技術
+  
+   |驗證類型|定義|舉例|
+   |----|-----|----|
+   |something you have|每次都不一樣或者記不住的或需要裝置接收的就是something you have|金鑰,數位認證,IC識別卡,雲端發送之驗證碼,所有類型之驗證碼|
+   |something you know|可以用腦袋記住的就是something you know|用戶名稱,用戶自訂密碼,身分證ID|
+   |something you are:|人身上帶有之不可改變特徵|虹膜採集,指紋採集,|
+  
    - 字典猜測攻擊關鍵字：paawordlist
    - 驗證技術安全指標
      - **FRR(Reject Rate)**:越高越安全。
