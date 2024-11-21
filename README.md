@@ -226,20 +226,17 @@
 ```
 OWASP是一個幫助開發者了解WEB的開發漏洞的非營利性開放社群組織。
 ```
-
-  | 弱點(vulnerability) |層級|攻擊手法|防範|
-  |----------|---|---|---|
-  |權限控制失效 (Broken Access Control)|`Application layer`|（Horizontal Privilege Escalation):查看其他用戶資訊,垂直權限提升（Vertical Privilege Escalation):嘗試訪問管理員權限|每次的訪問中每個使用者都需要至後端驗證權限水平權限提升|
-  |加密機制失效 (Cryptographic Failures)|`Presentation layer`,`Application layer`|攻擊者劫持未經加密的數據傳輸(HTTP)或破解數據的弱密碼(MD5,SHA-1 Hashi)|使用https傳輸,使用AES-256,SHA-256加密|
-  |注入式攻擊 (Injection)|`Application layer`|sql注入:再輸入欄位中插入sql查詢,command注入:插入系統指令操作伺服器|確實檢查前端輸入的正確性,使用參數化的SQL查詢結合API至後端執行查詢,設置WEB應用防火牆|
-  |不安全設計 (Insecure Design)|`Application layer`|易遭受結構化攻擊|需要威脅建模及[安全測試](https://github.com/shawnhuang125/Penetration-Testing)|
-  |安全設定缺陷 (Security Misconfiguration)|`Application layer`|使用默認的帳號密碼,開啟必要的服務及端口|關閉讀必要的服務及端口,定期檢查服務配置|
-  |危險或過時的元件 (Vulnerable and Outdated Components)|`Application layer`|利用已被發現的漏洞對未更新的資源庫或系統攻擊|定期更新系統及資源庫|
-  |認證及驗證機制失效 (Identification and Authentication Failures)|`Application layer`|暴力破解|嚴格執行強密碼策略,限制密碼錯誤次數|
-  |軟體及資料完整性失效 (Software and Data Integrity Failures)|`Application layer`|供應鏈攻擊,植入木馬|採用可被信任的資源庫|
-  |資安記錄及監控失效 (Security Logging and Monitoring Failures)|`Application layer`|攻擊者利用沒有日誌與監控來掩蓋其入侵行為|增設日誌及安全監控|
-  |伺服端請求偽造 (Server-Side Request Forgery)|`Application layer`|繞過防火牆直接存取內部資源|增設防火牆.驗證內部與外部的請求|
-
+  - A1.權限控制失效 (Broken Access Control):網站伺服器的權限設計有缺陷。
+  - A2.加密機制失效 (Cryptographic Failures):沒有被加密過的https或https的加密機制太脆弱。
+  - A3.注入式攻擊 (Injection):(Sql-Injection):前端輸入沒有嚴格驗證。
+  - A4.不安全設計 (Insecure Design):沒有針對安全性來設計網站造造成很多層面的重大安全缺陷。
+  - A5.安全設定缺陷 (Security Misconfiguration):沒有嚴格檢查後端資料庫及apache伺服器的配置是否正確。
+  - A6.危險或過時的元件 (Vulnerable and Outdated Components):沒有定期更新系統及系統套件的最新版本。
+  - A7.認證及驗證機制失效 (Identification and Authentication Failures):沒有嚴格規定使用者身分存取的驗證原則。
+  - A8.軟體及資料完整性失效 (Software and Data Integrity Failures):沒有針對資料的修改權限進行防護設計。
+  - A9.資安記錄及監控失效 (Security Logging and Monitoring Failures):沒有配置完整的日誌及安全警報。
+  - A10.伺服端請求偽造 (Server-Side Request Forgery):沒有嚴格驗證造訪者的身分。
+    
 - 網路安全防護設備介紹
 
   |系統名稱|用途|OSI層級|
