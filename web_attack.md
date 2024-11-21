@@ -36,7 +36,24 @@ OWASP是一個幫助開發者了解WEB的開發漏洞的非營利性開放社群
   SELECT * FROM users WHERE username = '' OR '1'='1' AND password = '' OR '1'='1';
   ```
 - 這會使查詢永遠為真，攻擊者成功繞過身份驗證，進入系統。
-- 
+- **Command Injection (命令注入)**
+  - 實例： 場景：Web應用允許用戶透過輸入IP地址來Ping伺服器。 後端代碼：
+  ```
+  ping -c 4 $user_input
+  ```
+- 攻擊者輸入：
+
+  ```
+  127.0.0.1; rm -rf /
+  ```
+- 結果生成的命令：
+
+  ```
+  ping -c 4 127.0.0.1; rm -rf /
+  ```
+  - 這會導致系統執行rm -rf /，刪除伺服器的所有檔案。
+
+
 ### 不安全設計 (Insecure Design)
 ### 安全設定缺陷 (Security Misconfiguration)
 ### 危險或過時的元件 (Vulnerable and Outdated Components)
