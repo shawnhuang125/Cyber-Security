@@ -1,5 +1,5 @@
-# 網路安全概論E94XCyber-Security
-## 管理概論
+# 網路安全概論Cyber-Security
+## 管理篇
 - ISMS(Information Security Management System)
   -PDCA Cycle
   
@@ -186,7 +186,7 @@
   
 
   
-## 技術概論
+## 技術篇
 - 網路概論
   - 計算機網路-OSI
 
@@ -306,5 +306,13 @@
       |登入者訊息|`var/log/wtmp`|
       |紀錄開機|`var/log/boot.log`|
 
-
+- 物聯網安全
+  - 主要架構
+    - 管理層:
+    - 網路層:3g,4g,5g,藍芽,wifi,zigbee
+    - 感知層:
+  - 攻擊手法
+    - 黑洞攻擊:攻擊者控制一個節點,將網路封包全數丟棄,類似於Ddos攻擊。
+    - 分割攻擊:破壞網路的傳輸並影響系統協作性!
+    - 中間人攻擊:攔截數據並竄改數據。
 
