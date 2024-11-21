@@ -16,7 +16,7 @@ OWASP是一個幫助開發者了解WEB的開發漏洞的非營利性開放社群
   |資安記錄及監控失效 (Security Logging and Monitoring Failures)|沒有確認日誌與監控是否完整配置。|
   |伺服端請求偽造 (Server-Side Request Forgery)|沒有嚴格確認造訪者請求的存取身分。|
 
-# 網站攻擊手法介紹
+## 網站攻擊手法介紹
 ### 權限控制失效 (Broken Access Control)
 - **水平權限提升 (Horizontal Privilege Escalation)**
   - 場景： 用戶A和用戶B各有自己的帳號，但用戶A能夠訪問用戶B的資源。
