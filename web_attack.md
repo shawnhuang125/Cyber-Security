@@ -26,12 +26,12 @@ OWASP是一個幫助開發者了解WEB的開發漏洞的非營利性開放社群
   ```
   SELECT * FROM users WHERE username = '$username' AND password = '$password';
   ```
-- 攻擊者輸入：
+  - 攻擊者輸入：
   ```
   Username: ' OR '1'='1
   Password: ' OR '1'='1
   ```
-- 結果生成的SQL查詢：
+  - 結果生成的SQL查詢：
   ```
   SELECT * FROM users WHERE username = '' OR '1'='1' AND password = '' OR '1'='1';
   ```
@@ -41,12 +41,12 @@ OWASP是一個幫助開發者了解WEB的開發漏洞的非營利性開放社群
   ```
   ping -c 4 $user_input
   ```
-- 攻擊者輸入：
+  - 攻擊者輸入：
 
   ```
   127.0.0.1; rm -rf /
   ```
-- 結果生成的命令：
+  - 結果生成的命令：
 
   ```
   ping -c 4 127.0.0.1; rm -rf /
@@ -64,13 +64,13 @@ OWASP是一個幫助開發者了解WEB的開發漏洞的非營利性開放社群
   ```
   db.users.find({ username: userInput.username, password: userInput.password });
   ```
-- 攻擊者輸入：
+  - 攻擊者輸入：
 
   ```
   Username: {"$ne": null}
   Password: {"$ne": null}
   ```
-- 結果生成的查詢：
+  - 結果生成的查詢：
 
   ```
   db.users.find({ username: {"$ne": null}, password: {"$ne": null} });
@@ -84,12 +84,12 @@ OWASP是一個幫助開發者了解WEB的開發漏洞的非營利性開放社群
   with open(file_path, "r") as file:
   data = file.read()
   ```
-- 攻擊者輸入：
+  - 攻擊者輸入：
 
   ```
   ../../etc/passwd
   ```
-- 結果生成的路徑：
+  - 結果生成的路徑：
 
   ```
   /var/www/html/files/../../etc/passwd
