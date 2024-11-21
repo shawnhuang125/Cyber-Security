@@ -7,7 +7,7 @@ OWASP是一個幫助開發者了解WEB的開發漏洞的非營利性開放社群
   |----------|----|
   |權限控制失效 (Broken Access Control)|沒有確切驗證使用者身分。|
   |加密機制失效 (Cryptographic Failures)|沒有使用高安全性之加密技術所以http連線易被駭客劫持。|
-  |注入式攻擊 (Injection)|沒有嚴格驗證前端的輸入資訊|
+  |注入式攻擊 (Injection)|沒有嚴格驗證前端的輸入資訊造成伺服器資訊被洩漏。|
   |不安全設計 (Insecure Design)|沒有考量網站安全性的設計,易造成網站很多層面的漏洞。|
   |安全設定缺陷 (Security Misconfiguration)|沒有確認系統或系統套件或資料庫有配置上的是否正確配置。|
   |危險或過時的元件 (Vulnerable and Outdated Components)|沒有定期更先系統套件版本以修補漏洞。|
