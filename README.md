@@ -226,16 +226,16 @@
 ```
 OWASP是一個幫助開發者了解WEB的開發漏洞的非營利性開放社群組織。
 ```
-  - A1.權限控制失效 (Broken Access Control):網站伺服器的權限設計有缺陷。
-  - A2.加密機制失效 (Cryptographic Failures):沒有被加密過的https或https的加密機制太脆弱。
-  - A3.注入式攻擊 (Injection):(Sql-Injection):前端輸入沒有嚴格驗證。
-  - A4.不安全設計 (Insecure Design):沒有針對安全性來設計網站造造成很多層面的重大安全缺陷。
-  - A5.安全設定缺陷 (Security Misconfiguration):沒有嚴格檢查後端資料庫及apache伺服器的配置是否正確。
-  - A6.危險或過時的元件 (Vulnerable and Outdated Components):沒有定期更新系統及系統套件的最新版本。
-  - A7.認證及驗證機制失效 (Identification and Authentication Failures):沒有嚴格規定使用者身分存取的驗證原則。
-  - A8.軟體及資料完整性失效 (Software and Data Integrity Failures):沒有針對資料的修改權限進行防護設計。
-  - A9.資安記錄及監控失效 (Security Logging and Monitoring Failures):沒有配置完整的日誌及安全警報。
-  - A10.伺服端請求偽造 (Server-Side Request Forgery):沒有嚴格驗證造訪者的身分。
+    - A1.權限控制失效 (Broken Access Control):網站伺服器的權限設計有缺陷。
+    - A2.加密機制失效 (Cryptographic Failures):沒有被加密過的https或https的加密機制太脆弱。
+    - A3.注入式攻擊 (Injection):(Sql-Injection):前端輸入沒有嚴格驗證。
+    - A4.不安全設計 (Insecure Design):沒有針對安全性來設計網站造造成很多層面的重大安全缺陷。
+    - A5.安全設定缺陷 (Security Misconfiguration):沒有嚴格檢查後端資料庫及apache伺服器的配置是否正確。
+    - A6.危險或過時的元件 (Vulnerable and Outdated Components):沒有定期更新系統及系統套件的最新版本。
+    - A7.認證及驗證機制失效 (Identification and Authentication Failures):沒有嚴格規定使用者身分存取的驗證原則。
+    - A8.軟體及資料完整性失效 (Software and Data Integrity Failures):沒有針對資料的修改權限進行防護設計。
+    - A9.資安記錄及監控失效 (Security Logging and Monitoring Failures):沒有配置完整的日誌及安全警報。
+    - A10.伺服端請求偽造 (Server-Side Request Forgery):沒有嚴格驗證造訪者的身分。
     
 - 網路安全防護設備介紹
 
