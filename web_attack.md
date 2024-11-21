@@ -20,6 +20,23 @@ OWASP是一個幫助開發者了解WEB的開發漏洞的非營利性開放社群
 ### 權限控制失效 (Broken Access Control)
 ### 加密機制失效 (Cryptographic Failures)
 ### 注入式攻擊 (Injection)
+- **SQL Injection (SQL注入)**
+  - 實例： 場景：網站登入功能。 輸入框的SQL查詢如下：
+
+  ```
+  SELECT * FROM users WHERE username = '$username' AND password = '$password';
+  ```
+- 攻擊者輸入：
+  ```
+  Username: ' OR '1'='1
+  Password: ' OR '1'='1
+  ```
+- 結果生成的SQL查詢：
+  ```
+  SELECT * FROM users WHERE username = '' OR '1'='1' AND password = '' OR '1'='1';
+  ```
+- 這會使查詢永遠為真，攻擊者成功繞過身份驗證，進入系統。
+- 
 ### 不安全設計 (Insecure Design)
 ### 安全設定缺陷 (Security Misconfiguration)
 ### 危險或過時的元件 (Vulnerable and Outdated Components)
