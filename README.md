@@ -222,10 +222,10 @@
     - 免殺技術:病毒通常會夾帶免殺技術來躲避防毒軟體的規則,所以防毒軟體要常常更新!
      
 
-- [OWASP Top Ten Risks -2021](https://owasp.org/www-project-top-ten/) 十大漏洞 | [網站攻擊手法](https://github.com/shawnhuang125/Cyber-Security/blob/main/web_attack.md) 
-```
-OWASP是一個幫助開發者了解WEB的開發漏洞的非營利性開放社群組織。
-```
+- [OWASP Top Ten Risks -2021](https://owasp.org/www-project-top-ten/) | [網站攻擊手法](https://github.com/shawnhuang125/Cyber-Security/blob/main/web_attack.md) 
+  ```
+  OWASP是一個幫助開發者了解WEB的開發漏洞的非營利性開放社群組織。
+  ```
     - A1.權限控制失效 (Broken Access Control):網站伺服器的權限設計有缺陷。
     - A2.加密機制失效 (Cryptographic Failures):沒有被加密過的https或https的加密機制太脆弱。
     - A3.注入式攻擊 (Injection):(Sql-Injection):前端輸入沒有嚴格驗證。
