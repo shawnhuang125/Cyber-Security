@@ -52,6 +52,49 @@ OWASP是一個幫助開發者了解WEB的開發漏洞的非營利性開放社群
   ping -c 4 127.0.0.1; rm -rf /
   ```
   - 這會導致系統執行rm -rf /，刪除伺服器的所有檔案。
+- **Cross-Site Scripting (XSS)**
+- 實例： 場景：留言板系統未對用戶輸入進行驗證或轉義。 攻擊者留言：
+  ```
+  <script>alert('XSS Attack!')</script>
+  ```
+  - 當其他用戶訪問這個頁面時，惡意腳本會在他們的瀏覽器中執行，可能竊取Cookie或其他敏感數據。
+- **NoSQL Injection**
+- 實例： 場景：基於MongoDB的應用。 查詢：
+
+  ```
+  db.users.find({ username: userInput.username, password: userInput.password });
+  ```
+- 攻擊者輸入：
+
+  ```
+  Username: {"$ne": null}
+  Password: {"$ne": null}
+  ```
+- 結果生成的查詢：
+
+  ```
+  db.users.find({ username: {"$ne": null}, password: {"$ne": null} });
+  ```
+  - 這將返回所有用戶，繞過身份驗證。
+- **Path Traversal (路徑穿越)**
+- 實例： 場景：Web應用允許用戶指定文件名來讀取文件內容。 代碼：
+
+  ```
+  file_path = "/var/www/html/files/" + user_input
+  with open(file_path, "r") as file:
+  data = file.read()
+  ```
+- 攻擊者輸入：
+
+  ```
+  ../../etc/passwd
+  ```
+- 結果生成的路徑：
+
+  ```
+  /var/www/html/files/../../etc/passwd
+  ```
+  - 這導致應用讀取並暴露敏感文件。
 
 
 ### 不安全設計 (Insecure Design)
