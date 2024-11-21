@@ -14,7 +14,7 @@ OWASP是一個幫助開發者了解WEB的開發漏洞的非營利性開放社群
   |認證及驗證機制失效 (Identification and Authentication Failures)|沒有嚴格確認使用者的存取身分造成資料完整性破壞。|
   |軟體及資料完整性失效 (Software and Data Integrity Failures)|沒有定期更先系統配件與資料庫版本進行漏洞修補。|
   |資安記錄及監控失效 (Security Logging and Monitoring Failures)|沒有確認日誌與監控是否完整配置。|
-  |伺服端請求偽造 (Server-Side Request Forgery)|`Application layer`|沒有嚴格確認造訪者請求的存取身分。|
+  |伺服端請求偽造 (Server-Side Request Forgery)|沒有嚴格確認造訪者請求的存取身分。|
 
 # 網站攻擊手法介紹
 ### SQL Injecting資料庫注入攻擊
